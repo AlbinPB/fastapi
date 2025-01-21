@@ -12,3 +12,6 @@ users = db.query(User).all()
 # Print the rows
 for user in users:
     print(f"ID: {user.id}, user_id: {user.user_id}, role_id: {user.role_id}, date: {user.assigned_at}")
+
+
+# Git test
